@@ -1,0 +1,73 @@
+# --- Ambientes virtuais ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Variáveis de ambiente / segredos ---
+.env
+.env.*
+!.env.example
+
+# --- Chaves / certificados / credenciais ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# --- Cache e bytecode Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Empacotamento / build ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Banco de dados local ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Arquivos de IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Testes / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Backups locais ---
+*_backup.py
+*.bak
+*.old
+
+# --- Arquivos temporários ---
+*.tmp
+*.temp
+~*
+
+# --- Arquivos compactados locais: podem conter .env e outros segredos ---
+*.zip
+*.7z
+*.rar
+
+# --- Materiais privados de revisao ---
+/revisao_privada/
+REVISAO_PRIVADA*.md
